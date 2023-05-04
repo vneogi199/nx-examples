@@ -109,6 +109,9 @@
           }
         ]
       }
+    },
+    "logger": {
+      "executor": "@nx-example/my-plugin:logger"
     }
   },
   "tags": ["type:app", "scope:cart"],

@@ -1,0 +1,9 @@
+{
+  "executors": {
+    "logger": {
+      "implementation": "./src/executors/logger/executor",
+      "schema": "./src/executors/logger/schema.json",
+      "description": "logger executor"
+    }
+  }
+}

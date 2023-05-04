@@ -1,0 +1,11 @@
+{
+  "name": "@nx-example/my-plugin",
+  "version": "0.0.1",
+  "type": "module",
+  "executors": "./executors.json",
+  "peerDependencies": {
+    "tslib": "2.4.1"
+  },
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts"
+}

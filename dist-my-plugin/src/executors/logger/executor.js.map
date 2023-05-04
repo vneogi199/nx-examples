@@ -1,0 +1,1 @@
+{"version":3,"file":"executor.js","sourceRoot":"","sources":["../../../../libs/my-plugin/src/executors/logger/executor.ts"],"names":[],"mappings":";AAEA,MAAM,CAAC,OAAO,UAAgB,WAAW,CAAC,OAA6B;;QACrE,OAAO,CAAC,GAAG,CAAC,yBAAyB,EAAE,OAAO,CAAC,CAAC;QAChD,OAAO;YACL,OAAO,EAAE,IAAI;SACd,CAAC;IACJ,CAAC;CAAA"}
