@@ -5,6 +5,19 @@
   "projectType": "library",
   "generators": {},
   "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "options": {
+        "buildableProjectDepsInPackageJsonType": "dependencies",
+        "clean": true,
+        "generateLockfile": true,
+        "updateBuildableProjectDepsInPackageJson": true,
+        "main": "libs/shared/product/ui/src/index.ts",
+        "outputPath": "dist-example/product-ui",
+        "tsConfig": "libs/shared/product/ui/tsconfig.lib.json",
+        "rootDir": "libs"
+      }
+    },
     "lint": {
       "executor": "@nx/linter:eslint",
       "options": {

@@ -5,6 +5,18 @@
   "projectType": "library",
   "generators": {},
   "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "options": {
+        "buildableProjectDepsInPackageJsonType": "dependencies",
+        "clean": true,
+        "generateLockfile": true,
+        "updateBuildableProjectDepsInPackageJson": true,
+        "main": "libs/shared/jsxify/src/index.ts",
+        "outputPath": "dist-example/jsxify",
+        "tsConfig": "libs/shared/jsxify/tsconfig.lib.json"
+      }
+    },
     "lint": {
       "executor": "@nx/linter:eslint",
       "options": {
