@@ -14207,7 +14207,6 @@ __metadata:
     react-router-dom: 6.4.3
     react-test-renderer: 18.2.0
     rxjs: 7.8.0
-    shared-jsxify: "file:libs/shared/jsxify"
     style-loader: ^3.3.0
     stylus: ^0.55.0
     stylus-loader: ^7.1.0
@@ -16636,13 +16635,6 @@ __metadata:
   dependencies:
     kind-of: ^6.0.2
   checksum: 39b3dd9630a774aba288a680e7d2901f5c0eae7b8387fc5c8ea559918b29b3da144b7bdb990d7ccd9e11be05508ac9e459ce51d01fd65e583282f6ffafcba2e7
-  languageName: node
-  linkType: hard
-
-"shared-jsxify@file:libs/shared/jsxify::locator=nx-example%40workspace%3A.":
-  version: 0.0.1
-  resolution: "shared-jsxify@file:libs/shared/jsxify#libs/shared/jsxify::hash=758f16&locator=nx-example%40workspace%3A."
-  checksum: c2bee0ff79fb665f538f6185777573d68f1d631f8a04b25397be58b218e08efb11be92d6ab13622d895eff70f2b52505be3af1549d4399cfa72ed1f12b276e7b
   languageName: node
   linkType: hard
 
